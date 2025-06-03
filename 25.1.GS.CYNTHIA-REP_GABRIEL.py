@@ -29,8 +29,8 @@ for i in range(quantidade):
     bairro = input("Bairro: ")
     rua = input("Rua: ")
 
+    total = int(input("Total de pessoas afetadas: "))
     while True:
-        total = int(input("Total de pessoas afetadas: "))
         print("Informe quantas pessoas pertencem a CADA uma das categorias:")
 
         c = int(input("Número de crianças: "))
